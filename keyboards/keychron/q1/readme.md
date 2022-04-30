@@ -18,6 +18,12 @@ Flashing example for this keyboard:
 
 Getting into bootloader mode: Hold reset key under spacebar while plugging in.
 
+Compiling and flashing the default keymap with qmk tool (you can put the keyboard in bootloader mode after running the flash command)                                 xxxxxc:
+```
+qmk compile -km default
+qmk flash -km default
+```
+
 
 **Reset Key**: Hold down the key located at *K00*, commonly programmed as *Esc* while plugging in the keyboard.
 
